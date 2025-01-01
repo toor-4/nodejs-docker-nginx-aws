@@ -1,0 +1,10 @@
+img {
+  transition: all 1s;
+  opacity: 0.5;
+  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+img:hover {
+  transform: scale(1.3);
+  opacity: 1;
+}

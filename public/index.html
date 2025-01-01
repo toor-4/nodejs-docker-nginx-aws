@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nginx</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="./images/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg"
+        alt="Nginx"
+        class="img-fluid"
+        style="display: block; margin: auto; margin-top: 30vh; width: 600px"
+      />
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      function triggerConfetti() {
+        confetti({
+          particleCount: 500,
+          spread: 700,
+          origin: { y: 0.6 },
+        });
+      }
+      triggerConfetti();
+    </script>
+  </body>
+</html>
